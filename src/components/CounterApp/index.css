@@ -1,0 +1,58 @@
+.app-container{
+    background-color: #464a48;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    font-family: "Bree Serif";
+    color:bisque;
+    font-weight:bold;
+    font-size:35px;
+}
+.count{
+    font-family: "Bree Serif";
+    color:bisque;
+    font-weight:bold;
+    font-size:25px;
+
+}
+.button-container{
+
+    display: flex;
+    flex-direction: row;
+}
+.main-app-container{
+    background-color: #1a1f1c;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  padding: 10px;
+  box-shadow: 5px 10px #d8e6df;
+}
+.button{
+    background-color: #a7cfbc;
+    font-family: "Bree Serif";
+    font-weight: 400px;
+    color:black;
+    font-size:20px;
+    border-radius: 7px;
+    height:35px;
+    width:120px;
+    cursor:pointer;
+    outline: none;
+    border:0px;
+    margin: 10px;
+}
